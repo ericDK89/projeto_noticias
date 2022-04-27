@@ -26,6 +26,8 @@ Depois de adicionar, editar e excluir as notícias com "Teste":
 
 ✔️MySQL
 
+✔️MySQL Workbench
+
 ✔️Sequelize
 
 ✔️Cors
