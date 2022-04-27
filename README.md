@@ -6,11 +6,11 @@
 
 # 📁 Conexão com MySql
 
-Antes:
+Antes de adicionar as notícias com "Teste":
 
 ![image](https://user-images.githubusercontent.com/68076508/165625665-710a9714-3434-44f8-95d3-e557fdebe97c.png)
 
-Depois:
+Depois de adicionar, editar e excluir as notícias com "Teste":
 
 ![image](https://user-images.githubusercontent.com/68076508/165625497-60ace55c-d052-45ea-8701-8da3e12abcb2.png)
 
