@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import "./style.css";
 
 export default function Add() {
   const [title, setTitle] = useState("");
@@ -36,22 +37,25 @@ export default function Add() {
   };
 
   return (
-    <div>
-      <form>
+    <div className="container-add">
+      <h1>Cadastrar notícia</h1>
+      <form className="form-add">
         <input
+          className="title-add"
           type="text"
-          placeholder="title"
+          placeholder="Título"
           onChange={handleChangeTitle}
           required
         />
-        <input
+        <textarea
+          className="description-add"
           type="text"
-          placeholder="description"
+          placeholder="Descrição"
           onChange={handleChangeDesc}
           required
         />
         <button type="submit" onClick={handleSubmit}>
-          Submit
+          Cadastrar
         </button>
       </form>
     </div>

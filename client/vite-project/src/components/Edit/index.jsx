@@ -34,22 +34,25 @@ export default function Edit() {
   };
 
   return (
-    <div>
-      <form>
+    <div className="container-add">
+      <h1>Editar notícia</h1>
+      <form className="form-add">
         <input
+          className="title-add"
           type="text"
-          placeholder="title"
+          placeholder="Título"
           onChange={handleChangeTitle}
           required
         />
-        <input
+        <textarea
+          className="description-add"
           type="text"
-          placeholder="description"
+          placeholder="Descrição"
           onChange={handleChangeDesc}
           required
         />
         <button type="submit" onClick={handleSubmit}>
-          Submit
+          Salvar
         </button>
       </form>
     </div>

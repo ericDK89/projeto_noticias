@@ -21,9 +21,7 @@ export default function Home() {
     });
   };
 
-  useEffect(() => {
-
-  }, [handleDelete])
+  useEffect(() => {}, [handleDelete]);
 
   return (
     <div className="body">
